@@ -1,10 +1,10 @@
-# C.A.M.I.L.L.A
+# DIANA
 
 
 ## The Cutest Group Management Bot ever, with Cool & Fun Features
 
 
-[Contact me](https://t.me/BeatsToHell913)
+[Contact me](https://t.me/Le_Patrie)
 
 
  Hint : Made with Python 3.8.5
