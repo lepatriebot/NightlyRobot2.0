@@ -142,11 +142,11 @@ def send_start(bot, update):
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
     text = "Hey {}, 𝙃𝙤𝙬 𝙖𝙧𝙚 𝙮𝙤𝙪?..."
-    text += "\nMy name is **C.A.M.I.L.L.A** \nAnd I'm the cutest Group Management bot ever! 😉 " 
+    text += "\nMy name is **DIANA** \nAnd I'm the cutest Group Management bot ever! 😉 " 
     text += "\n\n𝐅𝐞𝐞𝐥 𝐟𝐫𝐞𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐞 𝐢𝐧𝐭𝐨 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬 and see how I manage them efficiently! 😉..."  
 
     keyboard = [[InlineKeyboardButton(text="🔰Help", callback_data="help_back"),InlineKeyboardButton(text="⚔️ Connect Group ⚔️", callback_data="main_connect")]]
-    keyboard += [[InlineKeyboardButton(text="💠Add Me💠",url="http://t.me/zoldycktmbot?startgroup=true"),InlineKeyboardButton(text="♻️Owner",url="https://t.me/BeatsToHell913")]]
+    keyboard += [[InlineKeyboardButton(text="💠Add Me💠",url="http://t.me/zoldycktmbot?startgroup=true"),InlineKeyboardButton(text="♻️Owner",url="https://t.me/Le_Patrie")]]
 
     update.effective_message.reply_photo(HELP_PANEL_STRING.ALLUKA_IMG,text.format(escape_markdown(first_name), escape_markdown(bot.first_name)), reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
 
