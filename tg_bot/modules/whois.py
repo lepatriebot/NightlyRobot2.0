@@ -44,7 +44,7 @@ def info(bot: Bot, update: Update, args: List[str]):
     else:
         return
     
-    text = (f"<b>User Information extracted from C.A.M.I.L.L.A's database:</b>\n"
+    text = (f"<b>User Information extracted from DIANA's database:</b>\n"
             f"🆔: <code>{user.id}</code>\n"
             f"👤Name: {html.escape(user.first_name)}")
 
