@@ -33,7 +33,7 @@ SLAP_TEMPLATES = (
 
 PING_STRING = (
     "PONG!!",
-    "C.A.M.I.L.L.A is here!",
+    "DIANA is here!",
 )
 
 ITEMS = (
