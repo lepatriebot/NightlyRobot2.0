@@ -141,9 +141,10 @@ def send_start(bot, update):
         pass
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
-    text = "Hey {}, 𝙃𝙤𝙬 𝙖𝙧𝙚 𝙮𝙤𝙪?..."
-    text += "\nMy name is **DIANA** \nAnd I'm the cutest Group Management bot ever! 😉 " 
-    text += "\n\n𝐅𝐞𝐞𝐥 𝐟𝐫𝐞𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐞 𝐢𝐧𝐭𝐨 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬 and see how I manage them efficiently! 😉..."  
+    text = "Hey {}, How are you?..."
+    text += "\nMy name is **DIANA** \nAnd I'm the smartest Group Management bot ever ! 😊" 
+    text += "\n\nAdd me to your group and see how I manage them efficiently! 😇😇...
+Developer : @sonoflars"  
 
     keyboard = [[InlineKeyboardButton(text="🔰Help", callback_data="help_back"),InlineKeyboardButton(text="⚔️ Connect Group ⚔️", callback_data="main_connect")]]
     keyboard += [[InlineKeyboardButton(text="💠Add Me💠",url="http://t.me/zoldycktmbot?startgroup=true"),InlineKeyboardButton(text="♻️Owner",url="https://t.me/Le_Patrie")]]
